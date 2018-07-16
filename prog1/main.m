@@ -25,6 +25,15 @@ int main(int argc, const char * argv[]) {
         NSLog(@"\n....%i",i);
         NSLog(@"\n...%i", i + 1);
         NSLog(@"\n..%i", i + 2);
+        //Exercicio numero 4
+        NSLog(@"\nA diferença entre 15 e 87 é: %i", 15 - 87);
+        //Exercicio numero 5
+        //Correcao de código
+        //Exercicio numero 6
+        int answer, result;
+        answer = 100;
+        result = answer - 10;
+        NSLog(@"The result is %i\n", result + 5);
     }
     return 0;
 }
