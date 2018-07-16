@@ -18,7 +18,13 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Testing...\n..1\n...2\n....3\nsum: %i", sum);
         //Exercicio numero 2.
         NSLog(@"\nEm Objective-C, as letras minusculas tem significado.\nmain é onde a execução do programa começa.\nChaves de abertura e fechamento cercam as instruções de programa em uma rotina.\nTodas as instriuções de programa devem ser terminada por um ponto e vírgula.");
-        
+        //Exercicio numero 3
+        int i;
+        i = 1;
+        NSLog(@"\nTesting...");
+        NSLog(@"\n....%i",i);
+        NSLog(@"\n...%i", i + 1);
+        NSLog(@"\n..%i", i + 2);
     }
     return 0;
 }
